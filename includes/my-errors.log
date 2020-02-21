@@ -1,0 +1,76 @@
+[27-Jan-2020 11:58:15 UTC] Error: Call to undefined method stdClass::arraybuilder() in C:\wamp64\www\OOP\admin\users\index1.php:76
+Stack trace:
+#0 C:\wamp64\www\OOP\admin\users\index1.php(228): printUsers()
+#1 {main}
+[27-Jan-2020 12:01:08 UTC] Error: Call to undefined method stdClass::arraybuilder() in C:\wamp64\www\OOP\admin\users\index1.php:76
+Stack trace:
+#0 C:\wamp64\www\OOP\admin\users\index1.php(228): printUsers()
+#1 {main}
+[27-Jan-2020 12:01:24 UTC] Error: Call to undefined method stdClass::arraybuilder() in C:\wamp64\www\OOP\admin\users\index1.php:76
+Stack trace:
+#0 C:\wamp64\www\OOP\admin\users\index1.php(228): printUsers()
+#1 {main}
+[28-Jan-2020 09:01:43 UTC] Error: Call to undefined function printUsers() in C:\wamp64\www\OOP\admin\categories\index.php:210
+Stack trace:
+#0 {main}
+[28-Jan-2020 09:02:18 UTC] Error: Call to undefined function printUsers() in C:\wamp64\www\OOP\admin\categories\index.php:210
+Stack trace:
+#0 {main}
+[28-Jan-2020 09:02:40 UTC] Error: Call to undefined function printUsers() in C:\wamp64\www\OOP\admin\categories\index.php:210
+Stack trace:
+#0 {main}
+[28-Jan-2020 10:52:19 UTC] Error: Call to undefined function printUsers() in C:\wamp64\www\OOP\admin\categories\index.php:210
+Stack trace:
+#0 {main}
+[28-Jan-2020 11:15:21 UTC] Error: Call to undefined method stdClass::get() in C:\wamp64\www\OOP\admin\users\index1.php:89
+Stack trace:
+#0 C:\wamp64\www\OOP\admin\users\index1.php(194): printUsers()
+#1 {main}
+[29-Jan-2020 06:27:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in C:\wamp64\www\OOP\admin\categories\edit.php:144
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\OOP\admin\categories\edit.php on line 144
+[29-Jan-2020 06:27:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in C:\wamp64\www\OOP\admin\categories\edit.php:144
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\OOP\admin\categories\edit.php on line 144
+[29-Jan-2020 07:21:37 UTC] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  id = ?' at line 1 query: UPDATE users WHERE  id = ?  in C:\wamp64\www\OOP\classes\MysqliDb.php:2000
+Stack trace:
+#0 C:\wamp64\www\OOP\classes\MysqliDb.php(1588): MysqliDb->_prepareQuery()
+#1 C:\wamp64\www\OOP\classes\MysqliDb.php(913): MysqliDb->_buildQuery(NULL, false)
+#2 C:\wamp64\www\OOP\admin\users\edit1.php(61): MysqliDb->update('users', false)
+#3 C:\wamp64\www\OOP\admin\users\edit1.php(89): action_moddb()
+#4 {main}
+  thrown in C:\wamp64\www\OOP\classes\MysqliDb.php on line 2000
+[01-Feb-2020 03:55:12 UTC] Exception: Connect Error 2054: The server requested authentication method unknown to the client in C:\wamp64\www\OOP\classes\MysqliDb.php:326
+Stack trace:
+#0 C:\wamp64\www\OOP\classes\MysqliDb.php(415): MysqliDb->connect('default')
+#1 C:\wamp64\www\OOP\classes\MysqliDb.php(1982): MysqliDb->mysqli()
+#2 C:\wamp64\www\OOP\classes\MysqliDb.php(1588): MysqliDb->_prepareQuery()
+#3 C:\wamp64\www\OOP\classes\MysqliDb.php(734): MysqliDb->_buildQuery(NULL)
+#4 C:\wamp64\www\OOP\admin\users\index.php(196): MysqliDb->get('users')
+#5 {main}
+[01-Feb-2020 03:56:28 UTC] Exception: Connect Error 2054: The server requested authentication method unknown to the client in C:\wamp64\www\OOP\classes\MysqliDb.php:326
+Stack trace:
+#0 C:\wamp64\www\OOP\classes\MysqliDb.php(415): MysqliDb->connect('default')
+#1 C:\wamp64\www\OOP\classes\MysqliDb.php(1982): MysqliDb->mysqli()
+#2 C:\wamp64\www\OOP\classes\MysqliDb.php(1588): MysqliDb->_prepareQuery()
+#3 C:\wamp64\www\OOP\classes\MysqliDb.php(734): MysqliDb->_buildQuery(NULL)
+#4 C:\wamp64\www\OOP\admin\users\index.php(196): MysqliDb->get('users')
+#5 {main}
+[01-Feb-2020 03:57:27 UTC] Exception: Connect Error 2054: The server requested authentication method unknown to the client in C:\wamp64\www\OOP\classes\MysqliDb.php:326
+Stack trace:
+#0 C:\wamp64\www\OOP\classes\MysqliDb.php(415): MysqliDb->connect('default')
+#1 C:\wamp64\www\OOP\classes\MysqliDb.php(1982): MysqliDb->mysqli()
+#2 C:\wamp64\www\OOP\classes\MysqliDb.php(1588): MysqliDb->_prepareQuery()
+#3 C:\wamp64\www\OOP\classes\MysqliDb.php(734): MysqliDb->_buildQuery(NULL)
+#4 C:\wamp64\www\OOP\admin\users\index.php(196): MysqliDb->get('users')
+#5 {main}
+[01-Feb-2020 03:57:34 UTC] Exception: Connect Error 2054: The server requested authentication method unknown to the client in C:\wamp64\www\OOP\classes\MysqliDb.php:326
+Stack trace:
+#0 C:\wamp64\www\OOP\classes\MysqliDb.php(415): MysqliDb->connect('default')
+#1 C:\wamp64\www\OOP\classes\MysqliDb.php(1982): MysqliDb->mysqli()
+#2 C:\wamp64\www\OOP\classes\MysqliDb.php(1588): MysqliDb->_prepareQuery()
+#3 C:\wamp64\www\OOP\classes\MysqliDb.php(734): MysqliDb->_buildQuery(NULL)
+#4 C:\wamp64\www\OOP\admin\users\index.php(196): MysqliDb->get('users')
+#5 {main}
